@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+main h1 {
+	text-align: center;
+
+}
+
+main > p {
+	margin-left: 50px;
+	font-style: italic;
+}
+
+#html-resume {
+	border-style: solid;
+	margin-top: 20px;
+	margin-bottom: 75px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 50px;
+	line-height: 1.5;
+}
+
+#html-resume * {
+	font-family: 'Roboto', sans-serif;
+}
+
+.time {
+	font-style: italic;
+	font-weight: normal;
+}
+
+.gpa {
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
