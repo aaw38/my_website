@@ -10,5 +10,7 @@
  * HTML
  * css
  * vanilla js
-* All my own code, except for the use of an online css normalize stylesheet (from https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css) and two google fonts (from fonts.google.com)
+* All my own code, except for the use of:
+ * an online css normalize stylesheet (from https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css)
+ * two google fonts (from fonts.google.com)
 
