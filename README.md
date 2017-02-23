@@ -1,5 +1,5 @@
 #my_website
-**Personal Website**
+###Personal Website
 * for ProjectPart1 for CS1501 (Programming Languages for Web Applications)
 * Includes webpages for:
  * home
