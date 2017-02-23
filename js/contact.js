@@ -41,9 +41,7 @@ function validate() {
 }
 
 function submit(name, email, org, subject, message) {
-	document.forms["contact-form"].reset();
-	//do something with the data collected here.
-	return;
+	document.forms["contact-form"].innerHTML = "Sorry, not taking contact information at this time. Feel free to contact me at aaw38@pitt.edu or on any of my social networks (linked at bottom of page)";
 }
 
 function testEmail(email) {

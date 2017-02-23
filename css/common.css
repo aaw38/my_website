@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 
 * {
 	font-family: 'Gloria Hallelujah', cursive;
@@ -60,6 +60,7 @@ main {
 	padding-top: 6%;
 	padding-left: 7%;
 	padding-right: 7%;
+	margin: 0px;
 }
 
 footer {
