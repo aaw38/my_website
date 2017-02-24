@@ -17,6 +17,13 @@ function validate() {
 		return;
 	}
 
+	if (!testEmail(email))
+	{
+		alert("Invalid email address");
+		document.getElementById("email").reset();
+		return;
+	}
+
 	if (subject === "")
 	{
 		alert("You must provide your subject");
@@ -29,19 +36,12 @@ function validate() {
 		return;
 	}
 
-	if (!testEmail(email))
-	{
-		alert("Invalid email address");
-		document.getElementById("email").reset();
-		return;
-	}
-
 	submit(name, email, org, subject, message);
 	return;
 }
 
 function submit(name, email, org, subject, message) {
-	document.forms["contact-form"].innerHTML = "Sorry, not taking contact information at this time. Feel free to contact me at aaw38@pitt.edu or on any of my social networks (linked at bottom of page)";
+	document.forms["contact-form"].innerHTML = "Sorry, not taking contact information at this time. Feel free to contact me at aaw38@pitt.edu or on any of my social networking profiles (linked at bottom of page)";
 }
 
 function testEmail(email) {

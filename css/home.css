@@ -5,7 +5,7 @@ main {
 #myname {
 	color: black;
 	font-size: 20pt;
-	margin: 20px;
+	margin: 1%;
 	width: 20%;
 	display: inline-block;
 }
@@ -13,80 +13,85 @@ main {
 #myname p {
 	display: block;
 	padding: 0px;
-	margin: 10px;
+	margin: 0px;
 }
 
 #coe {
-	background: url('../images/ansys.png') no-repeat;
-	background-size: 100%;
+	background: url('../images/coe.png') no-repeat;
+	background-size: contain;
 }
 
 #coe:hover {
-	background: url('../images/transansys.png') no-repeat;
-	background-size: 100%;
+	background: url('../images/transcoe.png') no-repeat;
+	background-size: contain;
 }
 
 #cathy {
 	background: url('../images/cathy.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #cathy:hover {
 	background: url('../images/transcathy.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #camp {
 	background: url('../images/camp.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #camp:hover {
 	background: url('../images/transcamp.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #montblanc {
 	background: url('../images/montblanc.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #montblanc:hover {
 	background: url('../images/transmontblanc.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #handbells {
 	background: url('../images/handbells.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #handbells:hover {
 	background: url('../images/transhandbells.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #grad {
 	background: url('../images/graduation.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 #grad:hover {
 	background: url('../images/transgraduation.png') no-repeat;
-	background-size: 100%;
+	background-size: contain;
 }
 
 
 .home-bubble {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 5px;
 	width: 20%;
-	line-height: 230px;
 	display: inline-block;
 	color: transparent;
-	font-size: 12pt;
+	font-size: 13pt;
+}
+
+.home-bubble p {
+	margin-top: 45%;
+	margin-bottom: 45%;
+	text-align: center;
 }
 
 .home-bubble:hover p {
