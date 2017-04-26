@@ -1,37 +1,15 @@
 <!doctype html>
-
+<?php
+  include './common.php';
+?>
 <html>
-  <head>
-    <title>Abigail Wezelis</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./css/common.css">
-    <link rel="stylesheet" type="text/css" href="./css/about.css">
-    <link rel="icon" href="./images/favicon.ico">
-  </head>
+  <?php
+      echoHead("about");
+  ?>
   <body>
-    <header>
-  	  <nav>
-  	    <ul>
-          <li id="home-block">
-            <a href="./index.html">
-            <img id="home-widget" src="./images/handwriting.png" alt="my non-legal signature">
-          </a>
-          </li>
-          <li>
-            <a href="./index.html">Home</a>
-          </li>
-  	      <li>
-  	        <a href="#" class="current-selected">About</a>
-  	      </li>
-  	      <li>
-  	        <a href="./resume.html">Resume</a>
-  	      </li>
-  	      <li>
-  	      	<a href="./contact.html">Contact</a>
-  	      </li>
-  	    </ul>
-  	  </nav>
-  	</header>
+    <?php
+      echoHeader("About");
+    ?>
     <main>
       <div class="main-class" id="annecy-image-holder">
          <img id="annecy-image" src="./images/me_in_annecy.png" alt="me in Annecy, France">
@@ -54,34 +32,8 @@
         </p>
       </div>
    	</main>
-   	<footer>
-      <nav>
-        <ul>
-          <li id="footer-quote">
-            "It is our choices ... that show what we truly are, far more than our abilities." - J.K. Rowling
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/abigail-wezelis-87bb0a107/" target="_blank">
-              <img src="./images/linkedin-icon.png" alt="linkedin icon">
-            </a>
-          </li >
-          <li>
-            <a href="https://studylyon.wordpress.com" target="_blank">
-              <img src="./images/wordpress-icon.png" alt="wordpress icon">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/abby314159/?hl=en" target="_blank">
-              <img src="./images/instagram-icon.png" alt="instagram icon">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/aaw38" target="_blank">
-              <img src="./images/github-icon.png" alt="github icon">
-            </a>
-          </li>
-        </ul>
-      </nav>
-   	</footer>
+   	<?php
+      echoFooter();
+    ?>
   </body>
 </html>

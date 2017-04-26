@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+main {
+	min-height: 1000px;
+}
+
 h1 {
 	text-align: center;
 	margin-bottom: 50px;
@@ -14,6 +20,23 @@ form {
 	margin-left: 30%;
 	margin-right: 30%;
 	margin-bottom: 5%;
+	text-align: left;
+}
+
+#funfact {
+	padding: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 5%;
+	text-align: left;
+	background-color: black;
+	color: white;
+	border-style: solid;
+	border-color: white;
+}
+
+#funfact * {
+	font-family: 'Inconsolata', monospace;
 }
 
 .question > input {
