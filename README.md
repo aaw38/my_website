@@ -1,6 +1,7 @@
 # my_website
 ### Personal Website
-* for ProjectPart1 for CS1501 (Programming Languages for Web Applications)
+* for ProjectPart2 for CS1501 (Programming Languages for Web Applications)
+* Documentation of changes from ProjectPart1 in documentation.md
 * Includes webpages for:
 	* home
 	* about
